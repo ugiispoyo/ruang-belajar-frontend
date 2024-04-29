@@ -1,0 +1,47 @@
+<!DOCTYPE> adalah deklarasi yang digunakan di awal dokumen HTML untuk menentukan versi HTML atau DTD (Document Type Definition) yang 
+diikuti dokumen tersebut. Deklarasi ini penting karena memberi tahu browser jenis dokumen yang dihadapi untuk memastikan bahwa halaman web ditampilkan dengan benar. 
+
+<html> - Tag ini digunakan untuk menandai awal dari setiap dokumen HTML. Semua elemen lainnya harus berada di dalam tag ini.
+
+<head> - Digunakan untuk menyimpan informasi tentang dokumen, seperti judul dan tautan ke file CSS atau JavaScript.
+
+<meta> - Tag ini digunakan untuk mendefinisikan metadata tentang dokumen HTML yang tidak ditampilkan 
+secara langsung pada halaman web, tetapi digunakan oleh browser dan mesin pencari untuk memahami 
+konten dan konteks dari halaman tersebut. Metadata dapat termasuk informasi seperti set karakter 
+yang digunakan, deskripsi halaman, kata kunci, dan responsifitas halaman.
+
+<title> - Menetapkan judul untuk halaman web, yang ditampilkan di tab browser.
+
+<style> - Digunakan untuk menyisipkan aturan CSS langsung di dalam dokumen HTML. Ini berguna untuk aturan gaya yang kecil atau spesifik halaman, 
+tetapi untuk proyek yang lebih besar, biasanya lebih baik menggunakan file CSS eksternal.
+
+<script> - Tag ini digunakan untuk mendefinisikan kode JavaScript di dalam atau di luar dokumen HTML. JavaScript digunakan untuk
+menambahkan interaktivitas ke halaman web, seperti menangani event, validasi data, dan manipulasi DOM
+
+<link> dalam HTML digunakan untuk mendefinisikan hubungan antara dokumen saat ini dengan sumber eksternal, seperti file CSS, favicon, dan preconnect URL. 
+Tag ini ditempatkan di dalam <head> dari dokumen HTML dan tidak menyertakan konten yang ditampilkan secara langsung di halaman web, tetapi mempengaruhi bagaimana halaman tersebut ditampilkan atau berperilaku. 
+
+<body> - Tag ini mencakup semua konten halaman yang dapat dilihat oleh pengguna, seperti teks, gambar, dan video.
+
+<h1> hingga <h6> - Tag header yang digunakan untuk mendefinisikan judul dan subjudul. <h1> adalah yang paling penting dan sering digunakan untuk judul utama, sementara <h6> adalah yang paling kecil.
+
+<p> - Digunakan untuk paragraf teks. Ini adalah blok teks yang paling dasar dalam HTML.
+
+<a> - Tag untuk hyperlink. Atribut href menunjukkan tujuan dari link tersebut.
+
+<img> - Digunakan untuk menyisipkan gambar. Atribut src menunjukkan sumber gambar, dan alt menyediakan teks alternatif jika gambar tidak dapat ditampilkan.
+
+<ul>, <ol>, <li> - ul untuk unordered list (daftar tak berurutan), ol untuk ordered list (daftar berurutan), dan li untuk list item di dalam kedua jenis daftar tersebut.
+
+<table>, <tr>, <th>, <td> - Tag ini digunakan untuk membuat tabel. table adalah kontainer untuk tabel, tr untuk baris, th untuk header sel, dan td untuk data sel.
+
+<div> - Digunakan untuk mengelompokkan elemen bersama-sama dalam sebuah blok. Ini sangat berguna untuk styling dengan CSS.
+
+<span> - Serupa dengan <div>, tetapi digunakan untuk mengelompokkan elemen dalam satu baris, bukan blok.
+
+<form> - Digunakan untuk membuat formulir interaktif. Elemen dalam <form> dapat mencakup <input>, <label>, <textarea>, dll.
+
+<input> - Digunakan untuk membuat inputan pengguna. Atribut type menentukan jenis input seperti teks, email, tombol, dll.
+
+<button> - Digunakan untuk membuat tombol yang dapat ditekan pengguna untuk melakukan suatu aksi.
+
