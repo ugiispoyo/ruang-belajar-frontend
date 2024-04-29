@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Judul Halaman</title>
+    <title>Judul Halaman dengan Form</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Judul Utama</h1>
+        <h1>Judul Utama Website</h1>
         <nav>
             <ul>
                 <li><a href="#home">Beranda</a></li>
@@ -36,10 +36,18 @@
             <p>Kami menyediakan berbagai layanan.</p>
         </section>
 
-        <article id="contact">
+        <section id="contact">
             <h2>Kontak Kami</h2>
-            <p>Untuk lebih lanjut, silahkan hubungi kami.</p>
-        </article>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
     </main>
 
     <footer>
